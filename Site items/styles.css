@@ -1,0 +1,416 @@
+.vis{
+  border: 2px solid black;
+  background-color: red;
+}
+.visel{
+  border: 1px solid white;
+  min-height:514px;
+  background-color: green;
+}
+.display-table-cell{
+display: table-cell;
+}
+.start{
+  width: 1492px;
+}
+.margin-auto{
+  margin: auto;
+}
+.StSt1{
+  width: 1492px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 100px 1fr 200px repeat(6,1fr) 100px;
+}
+.StSt2{
+  width: 1492px;
+  min-height: 166px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr 2fr) 1fr;
+}
+.StSt3{
+  width: 1492px;
+  min-height: 1308px;
+}
+.StSt4{
+  width: 1492px;
+  min-height: 514px;
+}
+.StSt5{
+  width: 1492px;
+  min-height: 1000px;
+}
+.StSt6{
+  width: 1492px;
+  min-height: 212px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) 3fr;
+}
+.StSt7{
+  width: 1492px;
+  min-height: 48px;
+  display: grid;
+  grid-template-columns:1.5fr 4fr 3fr repeat(5, 2fr) 1.5fr;
+}
+.all{
+  width: 100%;
+  height:100%;
+  position: fixed;
+  z-index: -1;
+}
+body{
+  margin: 0px;
+}
+.Start-style1-elelement1{
+  height:100px;
+  width: 100px;
+  background: #ee3b33;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.simb{
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+}
+.white{
+  color: white;
+}
+.center-text{
+  text-align: center;
+}
+.zap1{
+  font-weight: bold;
+  margin: 6px auto 0;
+}
+.zap2{
+  font-size: 12px;
+  margin: 0 auto 10px;
+}
+.Start-style1-elelement2,.Start-style1-elelement3,
+.Start-style1-elelement4,.Start-style1-elelement5,
+.Start-style1-elelement6,.Start-style1-elelement7,
+.Start-style1-elelement8,.Start-style1-elelement9,
+.Start-style1-elelement10{
+  height: 100px;
+  background-color: white;
+}
+.SupSp{
+  height: 95%;
+  display: flex;
+}
+.SupSpText{
+  margin: auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+.border{
+  height: 5%;
+  background: #ee3b33;
+}
+.Lowtxt{
+  font-size: 10px;
+}
+.whitebc{
+  background: white;
+}
+.Supmoto{
+  height: 80%;
+  display: flex;
+}
+.Supmototext{
+  height: 18%;
+  margin: auto;
+  font-size: 14px;
+  display: flex;
+}
+.choose{
+  height: 2%;
+  background: white;
+}
+.completed{
+  background:#ee3b33;
+}
+.StSt3{
+  display: grid;
+  grid-template-rows: 3.5fr 1fr 3fr;
+  grid-row-gap: 0px;
+}
+.motoinfo1{
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+.flexer-mid{
+  display: flex;
+}
+.mid{
+  margin: auto;
+}
+.bold{
+  font-weight: bold;
+}
+.bigtext{
+  font-size: 80px;
+}
+.inline{
+  display: inline;
+  font-weight:900;
+}
+.block3-1{
+  display: grid;
+  grid-template-rows: 25% 10% 10% 25% 30%;
+}
+.block3-2{
+  display: grid;
+  grid-template-columns: 47.5% 47.5%;
+  grid-column-gap:5%;
+}
+.redb{
+  border: 1px solid #ee3b33;
+  border-radius:10%;
+}
+.chose3{
+  height: 30%;
+  width: 80%;
+  margin: 0px 10%;
+}
+.circle1,.circle2,.circle3{
+  width:24px;
+  background: yellow;
+  margin-left: 15px;
+  border-radius: 50%;
+  border-width: 12px 0;
+  border-color: black;
+  border-style:solid;
+  border-top-color: yellow;
+  border-bottom-color: red;
+  box-shadow: 0px 0px 0px 1px black;
+  margin-top: 20px;
+}
+.circle1{
+  border-top-color: #5c68b5;
+  border-bottom-color: #adacaa;
+}
+.circle2{
+  border-top-color: rgb(84,83,81);
+  border-bottom-color: #adacaa;
+}
+.circle3{
+  border-top-color: #f5cc22;
+  border-bottom-color: #383735;
+}
+.flexer{
+  display: flex;
+}
+.flexdirectionrow{
+  flex-direction: row;
+  margin:auto 0;
+  padding-left: 10px;
+}
+.textbut{
+  font-size: 20px;
+  margin: auto;
+}
+.redbc{
+  background: #ee3b33;
+}
+.down{
+  align-items: flex-end;
+}
+.up1{
+  margin-bottom: 110px;
+}
+.table{
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+.pre{
+  white-space: pre;
+}
+.colred{
+  color: #ee3b33;
+}
+.colwhite{
+  color: #FFF;
+}
+.grey{
+  color: #81848a;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.top0{
+  margin-top: 3px;
+}
+.marginright{
+  margin-right: 25%;
+}
+.motoinfo2{
+display:grid;
+grid-template-columns:repeat(7, 1fr);
+}
+.boarder-non-activated{
+width: 0;
+height: 0;
+border-radius: 50%;
+border: 8px solid #c8c8c8;
+}
+.boarder-activated{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ee3b33;
+}
+.contcenter{
+  margin: auto;
+  text-align: center;
+}
+.invivsible{
+  margin:auto;
+}
+.motoinfo3{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2fr 1fr;
+}
+.columns1{
+  display: grid;
+  grid-template-rows: 2fr 5fr 7fr 1fr;
+}
+.padright{
+  padding-right: 200px;
+}
+.columns2{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 514px;
+}
+.rows2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.img1{
+  background-image: url('img1.png');
+  background-position: -20px -30px;
+}
+.img2{
+  background-image: url('img2.png');
+  background-repeat: no-repeat;
+  background-position: 0px -200px;
+}
+.img3{
+  background-image: url('img3.png');
+  background-repeat: no-repeat;
+  background-position: -280px -100px;
+}
+.img4{
+  background-image: url('img4.png');
+    background-repeat: no-repeat;
+    background-position: -290px -100px;
+}
+.img5{
+  background-image: url('img5.png');
+    background-repeat: no-repeat;
+}
+.rows3{
+  display: grid;
+  grid-template-columns: 50fr 2fr 10fr 50fr;
+}
+.grey1{
+  color: #a3a3a4;
+  margin: 0px 0;
+}
+.columns3{
+  display: grid;
+  grid-template-columns: 4fr repeat(4,3.5fr 1fr) 3fr
+}
+.columns4{
+  display: grid;
+  grid-template-columns:5fr repeat(3,3fr) 5fr;
+  grid-column-gap: 10%;
+  margin-top: 20px;
+}
+.columns5{
+  display: grid;
+  grid-template-columns:4fr repeat(3,3fr) 4fr;
+  grid-column-gap: 10%;
+}
+.black{
+  font-weight: bold;
+}
+.ots25{
+  margin-left: 25px;
+}
+.ots50{
+  margin-left: 50px;
+}
+.greybc{
+  background: #212327;
+}
+.rows4{
+  display: grid;
+  grid-auto-rows: repeat(5,1fr);
+  grid-row-gap: 5px;
+}
+.mid2{
+  margin: auto  15%;
+}
+.blackbg{
+  background: #191a1e;
+}
+.grey2{
+  color: #6f747f;
+}
+@keyframes rotate {
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}
+.rotate:hover{
+  animation: rotate ease-in-out 1s infinite;
+}
+@keyframes blind {
+  0%{
+    background:#ee3b33;
+  }
+  50%{
+    background:white ;
+  }
+  100%{
+    background: #ee3b33;
+  }
+}
+.blind{
+  animation: blind linear 1s infinite;
+}
+@keyframes flips {
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(180deg);
+  }
+}
+.flip:hover{
+  /*animation: flips cubic-bezier(.1,.7,1,1) 2s ;
+  transform: rotateY(180deg);*/
+  transform: rotateY(180deg);
+  transition: transform 3s;
+}
+.flip:not(:hover)
+{
+  transform: rotateY(0deg);
+  transition: transform 3s;
+}
+@media screen and (max-width:1000px){
+.StSt1{
+  grid-template-rows: 100px;
+  background: red;
+}
+}
